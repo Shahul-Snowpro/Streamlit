@@ -1,4 +1,4 @@
 streamlit
-upgrade snowflake.connector
+snowflake.connector
 pandas
 numpy
