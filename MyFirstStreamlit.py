@@ -5,7 +5,7 @@ import snowflake.connector as sc
 @st.experimental_singleton(suppress_st_warning=True)
 
 def init_connection():
-    return sc.connect(**st.secrets["snowflake"])
+    return sc.connect(**st.secrets["vbi"])
 
 conn = init_connection()
 
